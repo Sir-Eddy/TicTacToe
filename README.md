@@ -1,49 +1,50 @@
 # Tic-Tac-Toe
 
-## Überblick
-Dies ist eine Implementierung des klassischen Spiels Tic-Tac-Toe auf der Kommandozeile für zwei Spieler, einschließlich einer KI-Option.
+## Overview
+This is an implementation of the classic game Tic-Tac-Toe on the command line for two players, including an AI option.
 
-## Anforderungen
-- Implementierung in Python.
-- Nutzung von objektorientierter Programmierung.
-- Design gemäß dem Model View Controller (MVC) oder Model View Presenter (MVP) Entwurfsmuster.
-- Möglichkeit, den Spielstand in einer Datei zu speichern und wieder zu laden.
-- Ein zweiter Spielmodus gegen eine Spiel-KI, entweder durch eigene Heuristiken oder den Minimax-Algorithmus.
-- Unit-Tests für die Geschäftslogik einschließlich der Spiel-KI mit mindestens 90% Testabdeckung.
-- Einhaltung des Python PEP8 Coding Style Guides und Nutzung eines Linters.
-- Nutzung von https://mygit.th-deg.de zur Verwaltung des Quellcodes.
+## Requirements
+- Implemented in Python.
+- Use object-oriented programming.
+- Design according to the Model View Controller (MVC) or Model View Presenter (MVP) architectural pattern.
+- Ability to save the current game state to a file and load the game state when opening the game.
+- A second game mode to play against a game AI, using either your own heuristics or the minimax algorithm.
+- Unit tests for the business logic including the game AI with at least 90% test coverage.
+- Adherence to the Python PEP8 coding style guide and use of a linter.
+- Use https://mygit.th-deg.de to manage the codebase.
 
-## Funktionen
-- **Zwei-Spieler-Modus**: Spiele gegen einen Freund auf der Kommandozeile.
-- **Speichern und Laden**: Speichere den aktuellen Spielstand und lade ihn später wieder.
-- **Spiel-KI**: Spiele gegen eine KI, die entweder durch eigene Heuristiken oder den Minimax-Algorithmus gesteuert wird.
-- **Unit-Tests**: Umfassende Tests, um die korrekte Funktionsweise der Geschäftslogik zu gewährleisten.
-- **PEP8-konform**: Der Code folgt den PEP8-Richtlinien für sauberen und lesbaren Code.
+## Features
+- **Two-Player Mode**: Play against a friend on the command line.
+- **Save and Load**: Save the current game state and load it later.
+- **Game AI**: Play against an AI, controlled either by your own heuristics or the minimax algorithm.
+- **Unit Tests**: Comprehensive tests to ensure the correct functionality of the business logic.
+- **PEP8-Compliant**: The code follows PEP8 guidelines for clean and readable code.
 
 ## Installation
-1. Klone das Repository:
+1. Clone the repository:
     ```sh
     git clone https://mygit.th-deg.de/EddyXII/tic-tac-toe.git
     ```
-2. Wechsle in das Projektverzeichnis:
+2. Navigate to the project directory:
     ```sh
     cd tic-tac-toe
     ```
 
-## Nutzung
-1. Starte das Spiel:
+## Usage
+1. Start the game:
     ```sh
     python app.py
     ```
-2. Befolge die Anweisungen auf der Kommandozeile, um das Spiel zu spielen oder einen gespeicherten Spielstand zu laden.
+2. Follow the command line instructions to play the game or load a saved game state.
 
-## Architektur
-Das Spiel ist nach dem Model View Controller (MVC) Entwurfsmuster gestaltet. Dies ermöglicht eine klare Trennung der Geschäftslogik (Model), der Benutzerschnittstelle (View) und der Steuerung (Controller).
+## Architecture
+The game is designed according to the Model View Controller (MVC) architectural pattern, which enables a clear separation of business logic (Model), user interface (View), and control (Controller).
 
-## Spiel-KI
-Die Spiel-KI kann entweder durch eigene Heuristiken oder durch den Minimax-Algorithmus gesteuert werden. Der Minimax-Algorithmus sorgt für optimierte Züge der KI.
+## Game AI
+The game AI can be controlled either by your own heuristics or by the minimax algorithm. The minimax algorithm ensures optimized moves by the AI.
 
 ## Tests
-Die Geschäftslogik und die Spiel-KI sind umfassend getestet, um mindestens 90% Testabdeckung zu erreichen. Ein Test-Coverage-Tool wird verwendet, um die Testabdeckung zu überprüfen und zu gewährleisten.
+The business logic and game AI are comprehensively tested to achieve at least 90% test coverage. A test coverage tool is used to check and ensure the test coverage.
 
-Viel Spaß beim Spielen!
+Enjoy playing!
+
