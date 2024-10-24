@@ -1,4 +1,4 @@
-# Tic-Tac-Toe Game
+# Tic-Tac-Toe
 
 ## Überblick
 Dies ist eine Implementierung des klassischen Spiels Tic-Tac-Toe auf der Kommandozeile für zwei Spieler, einschließlich einer KI-Option.
