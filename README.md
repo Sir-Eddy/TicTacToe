@@ -29,10 +29,6 @@ Dies ist eine Implementierung des klassischen Spiels Tic-Tac-Toe auf der Kommand
     ```sh
     cd tic-tac-toe
     ```
-3. Installiere die erforderlichen Abhängigkeiten:
-    ```sh
-    pip install -r requirements.txt
-    ```
 
 ## Nutzung
 1. Starte das Spiel:
