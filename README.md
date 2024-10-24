@@ -1,6 +1,6 @@
 # Proof of Performance - Programming II
 
-**University**: Deggendorf Institute of Technology
+**University**: Deggendorf Institute of Technology <br>
 **Semester**: Summer 2024  
 
 ## Task 1 - Tic Tac Toe
