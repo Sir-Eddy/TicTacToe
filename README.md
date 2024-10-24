@@ -37,7 +37,7 @@ Dies ist eine Implementierung des klassischen Spiels Tic-Tac-Toe auf der Kommand
 ## Nutzung
 1. Starte das Spiel:
     ```sh
-    python main.py
+    python app.py
     ```
 2. Befolge die Anweisungen auf der Kommandozeile, um das Spiel zu spielen oder einen gespeicherten Spielstand zu laden.
 
