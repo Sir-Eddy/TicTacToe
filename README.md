@@ -3,7 +3,7 @@
 **University**: Deggendorf Institute of Technology <br>
 **Semester**: Summer 2024  
 
-## Task 1 - Tic Tac Toe
+## Task - Tic Tac Toe
 
 ### Overview
 Complete Task 1 to pass the proof of performance (**Leistungsnachweis**). This task involves implementing a Tic-Tac-Toe game for two players on the command line.
@@ -14,9 +14,6 @@ Complete Task 1 to pass the proof of performance (**Leistungsnachweis**). This t
 - Groups of up to 3 students can make a joint submission.
 - Submission must include the names and student IDs of all group members.
 - Submit your report (as PDF) and code (as ZIP) via iLearn.
-
-### Bonus Task
-Successful completion of Task 2 carries a 10% bonus for the exam. The same rules as for Task 1 apply, except that you do not have to write a report.
 
 ## Task Details
 
