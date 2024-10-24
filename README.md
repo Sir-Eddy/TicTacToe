@@ -1,43 +1,53 @@
-# Proof of Performance - Programming II
+# Tic-Tac-Toe Game
 
-**University**: Deggendorf Institute of Technology <br>
-**Semester**: Summer 2024  
+## Überblick
+Dies ist eine Implementierung des klassischen Spiels Tic-Tac-Toe auf der Kommandozeile für zwei Spieler, einschließlich einer KI-Option.
 
-## Task - Tic Tac Toe
+## Anforderungen
+- Implementierung in Python.
+- Nutzung von objektorientierter Programmierung.
+- Design gemäß dem Model View Controller (MVC) oder Model View Presenter (MVP) Entwurfsmuster.
+- Möglichkeit, den Spielstand in einer Datei zu speichern und wieder zu laden.
+- Ein zweiter Spielmodus gegen eine Spiel-KI, entweder durch eigene Heuristiken oder den Minimax-Algorithmus.
+- Unit-Tests für die Geschäftslogik einschließlich der Spiel-KI mit mindestens 90% Testabdeckung.
+- Einhaltung des Python PEP8 Coding Style Guides und Nutzung eines Linters.
+- Nutzung von https://mygit.th-deg.de zur Verwaltung des Quellcodes.
 
-### Overview
-Complete Task 1 to pass the proof of performance (**Leistungsnachweis**). This task involves implementing a Tic-Tac-Toe game for two players on the command line.
+## Funktionen
+- **Zwei-Spieler-Modus**: Spiele gegen einen Freund auf der Kommandozeile.
+- **Speichern und Laden**: Speichere den aktuellen Spielstand und lade ihn später wieder.
+- **Spiel-KI**: Spiele gegen eine KI, die entweder durch eigene Heuristiken oder den Minimax-Algorithmus gesteuert wird.
+- **Unit-Tests**: Umfassende Tests, um die korrekte Funktionsweise der Geschäftslogik zu gewährleisten.
+- **PEP8-konform**: Der Code folgt den PEP8-Richtlinien für sauberen und lesbaren Code.
 
-### Rules
-- Use Python for the implementation.
-- Write a report of about 4 pages.
-- Groups of up to 3 students can make a joint submission.
-- Submission must include the names and student IDs of all group members.
-- Submit your report (as PDF) and code (as ZIP) via iLearn.
+## Installation
+1. Klone das Repository:
+    ```sh
+    git clone https://mygit.th-deg.de/EddyXII/tic-tac-toe.git
+    ```
+2. Wechsle in das Projektverzeichnis:
+    ```sh
+    cd tic-tac-toe
+    ```
+3. Installiere die erforderlichen Abhängigkeiten:
+    ```sh
+    pip install -r requirements.txt
+    ```
 
-## Task Details
+## Nutzung
+1. Starte das Spiel:
+    ```sh
+    python main.py
+    ```
+2. Befolge die Anweisungen auf der Kommandozeile, um das Spiel zu spielen oder einen gespeicherten Spielstand zu laden.
 
-### Implementation Requirements
-- Follow authentic object-oriented programming practices.
-- Design your software using the Model View Controller (MVC) or Model View Presenter (MVP) architectural pattern.
-- Implement features to save the game state to a file and load the game state when opening the game.
-- Add a second mode to play against a game AI using your own heuristics or the minimax algorithm.
-- Write unit tests for your business logic, including the game AI, achieving at least 90% line coverage.
-- Adhere to the Python PEP8 coding style guide and use a linter to ensure compliance.
-- Use https://mygit.th-deg.de to manage the codebase.
+## Architektur
+Das Spiel ist nach dem Model View Controller (MVC) Entwurfsmuster gestaltet. Dies ermöglicht eine klare Trennung der Geschäftslogik (Model), der Benutzerschnittstelle (View) und der Steuerung (Controller).
 
-### Additional Notes
-All listed requirements are mandatory and graded separately. Failure to meet any requirement will result in failing the proof of performance. AI assistants are prohibited.
+## Spiel-KI
+Die Spiel-KI kann entweder durch eigene Heuristiken oder durch den Minimax-Algorithmus gesteuert werden. Der Minimax-Algorithmus sorgt für optimierte Züge der KI.
 
-### Useful References
-- [Online Tutorial 1](http://robertheaton.com/2018/10/09/programming-projects-for-advanced-beginners-3-a)
-- [Online Tutorial 2](http://robertheaton.com/2018/10/09/programming-projects-for-advanced-beginners-3-b)
+## Tests
+Die Geschäftslogik und die Spiel-KI sind umfassend getestet, um mindestens 90% Testabdeckung zu erreichen. Ein Test-Coverage-Tool wird verwendet, um die Testabdeckung zu überprüfen und zu gewährleisten.
 
-## Report Structure
-1. **Introduction**
-2. **Architecture**: Describe the design of your program with UML diagrams.
-3. **Serialization and Deserialization**: Explain how you save and load game states.
-4. **Game AI**: Describe how your game AI works.
-5. **Tests**: Describe your test approach and how you achieved at least 90% line coverage.
-6. **Contributions**: Describe the responsibilities of each group member.
-7. **Conclusions and Prospects**: Summary and suggestions for further improvements.
+Viel Spaß beim Spielen!
