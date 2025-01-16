@@ -6,7 +6,7 @@ This is an implementation of the classic game Tic-Tac-Toe on the command line fo
 ## Requirements
 - Implemented in Python.
 - Use object-oriented programming.
-- Design according to the Model View Controller (MVC) or Model View Presenter (MVP) architectural pattern.
+- Design according to the Model View Presenter (MVP) architectural pattern.
 - Ability to save the current game state to a file and load the game state when opening the game.
 - A second game mode to play against a game AI, using either your own heuristics or the minimax algorithm.
 - Unit tests for the business logic including the game AI with at least 90% test coverage.
