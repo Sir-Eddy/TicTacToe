@@ -1,8 +1,8 @@
 # TicTacToe 🐍
 
-![Commit Activity](https://img.shields.io/github/commit-activity/w/Sir-Eddy/PassHub)
-![Language](https://img.shields.io/github/languages/top/Sir-Eddy/PassHub?color=blue)
-![Repo Size](https://img.shields.io/github/repo-size/Sir-Eddy/PassHub)
+![Commit Activity](https://img.shields.io/github/commit-activity/w/Sir-Eddy/TicTacToe)
+![Language](https://img.shields.io/github/languages/top/Sir-Eddy/TicTacToe?color=green)
+![Repo Size](https://img.shields.io/github/repo-size/Sir-Eddy/TicTacToe)
 ![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red)
 
 ## Overview
