@@ -1,4 +1,4 @@
-# Tic-Tac-Toe
+# Tic-Tac-Toe 🐍
 
 ## Overview
 This is an implementation of the classic game Tic-Tac-Toe on the command line for two players, including an AI option.
