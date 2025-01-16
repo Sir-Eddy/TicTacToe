@@ -18,11 +18,11 @@ This is an implementation of the classic game Tic-Tac-Toe on the command line fo
 ## Installation
 1. Clone the repository:
     ```sh
-    git clone https://mygit.th-deg.de/EddyXII/tic-tac-toe.git
+    git clone https://github.com/Sir-Eddy/TicTacToe.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd tic-tac-toe
+    cd TicTacToe
     ```
 
 ## Usage
