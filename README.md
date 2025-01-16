@@ -1,5 +1,10 @@
 # TicTacToe 🐍
 
+![Commit Activity](https://img.shields.io/github/commit-activity/w/Sir-Eddy/PassHub)
+![Language](https://img.shields.io/github/languages/top/Sir-Eddy/PassHub?color=blue)
+![Repo Size](https://img.shields.io/github/repo-size/Sir-Eddy/PassHub)
+![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red)
+
 ## Overview
 This is an implementation of the classic game Tic-Tac-Toe on the command line for two players, including an AI option.
 
