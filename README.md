@@ -31,6 +31,5 @@ This is an implementation of the classic game Tic-Tac-Toe on the command line fo
     python app.py
     ```
 2. Follow the command line instructions to play the game or load a saved game state.
-
-## Enjoy playing!
+3. Enjoy playing!
 
